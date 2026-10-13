@@ -82,6 +82,8 @@ Excel 工作表名称为 `SKU与Query清单`，前 4 行为标题/说明/表头�
 
 ## 验证与数据边界
 
+实时小样本验证结果见 [LIVE_VALIDATION.md](LIVE_VALIDATION.md)。离线 CI 与实时测试分别记录；本机带有效 Cookie 的结果不代表无 Cookie 或所有网络环境都可访问。
+
 ```bash
 python -m unittest discover -s tests -v
 python scripts/check_public.py

@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ALLOWED = {
-    'README.md', 'SECURITY.md', '.env.example', '.gitignore', 'requirements.txt',
+    'README.md', 'LIVE_VALIDATION.md', 'SECURITY.md', '.env.example', '.gitignore', 'requirements.txt',
     '.github/workflows/ci.yml', 'examples/taxonomy.json', 'tests/test_pipeline.py',
     *('scripts/' + name for name in (
         'reddit.py', 'openclaw_reddit.py', 'research_batch.py', 'annotate.py',
